@@ -43,7 +43,7 @@ body {
 .img-menu .header {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 30%;
   font-size: 40px;
   color: white;
   transition: 0.5s;
@@ -66,17 +66,20 @@ body {
 }
 
 .content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
 }
 
 .content img {
   width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .content p {
-  margin-top: 50px;
+  width: 400px;
 }
 
 #footer {
